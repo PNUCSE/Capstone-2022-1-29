@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring className="ApplicationData" comment="Extract class &apos;ApplicationData&apos; from fields in &apos;Application&apos;&#x0D;&#x0A;- Original project: &apos;templat_application&apos;&#x0D;&#x0A;- Extracted class name: &apos;ApplicationData&apos;&#x0D;&#x0A;- Package: &apos;&apos;&#x0D;&#x0A;- Moved fields:&#x0D;&#x0A;     &apos;fileName&apos; as &apos;fileName&apos;&#x0D;&#x0A;- Field object: &apos;data&apos;" createField0="true" createFieldCount="1" createGetterSetter="false" createTopLevel="true" description="Extract Class..." fieldName="data" flags="851974" id="org.eclipse.jdt.ui.extract.class" input="/src&lt;{module-info.java[Application" newFieldCount="1" newFieldName0="fileName" oldFieldCount="1" oldFieldName0="fileName" packageName="" stamp="1637639821666" version="1.0"/>
+</session>

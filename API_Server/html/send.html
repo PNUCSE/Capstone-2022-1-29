@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #text_group{
+            width: 500px;
+            margin: auto;
+        }
+        #text{
+            width: fit-content;
+            margin: auto;
+            margin-right: 45px;
+        }
+        .group{
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .group input[type="text"]{
+            width: 300px;
+            text-align:center;
+            height: 32px;
+            font-size: 15px;
+            border: 0;
+            border-radius: 15px;
+            outline: none;
+            padding-left: 10px;
+            background-color: rgb(233, 233, 233);
+            
+        }
+        .group input[type="submit"]{
+            border: 1px solid skyblue;
+                background-color: rgba(0,0,0,0);
+                color: skyblue;
+                padding: 5px;
+                width: 100px;
+                height: 40px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;   
+                margin-top: 30px;
+        }
+        
+    </style>
+    
+    <body>
+        <div id="text_group">
+            <h1 id="text">Sparraw Becomes Pigeon</h1>
+        </div>
+        <div class="group">
+            <form action="/default" method="post">
+                <input id="input1" type="text" name="title" placeholder="Enter the title">
+                <input id="input2" type="submit" value="Submit">
+            </form>
+        </div>
+        
+    </body>
+</html>
